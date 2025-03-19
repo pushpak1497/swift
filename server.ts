@@ -57,7 +57,7 @@ interface UserWithPosts extends User {
 }
 //changed the password in mongodb url for security reasons because we shouldnot add dotenv package
 const MONGO_URL =
-  "mongodb+srv://pushpakvyas1497:Pu$hpak1497@swiftcluster0.nlb52.mongodb.net/";
+  "mongodb+srv://pushpakvyas1497:<dbpassword>@swiftcluster0.nlb52.mongodb.net/";
 const DB_NAME = "node_assignment_db";
 
 let db: Db;
